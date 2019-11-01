@@ -13,7 +13,7 @@ namespace ExpenseAPI.Migrations
         
         string IMigrationMetadata.Id
         {
-            get { return "201910310833320_InitialCreate"; }
+            get { return "201911011136084_Initial Create"; }
         }
         
         string IMigrationMetadata.Source

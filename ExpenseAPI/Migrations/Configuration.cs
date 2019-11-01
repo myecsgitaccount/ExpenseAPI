@@ -20,6 +20,7 @@ namespace ExpenseAPI.Migrations
             //  You can use the DbSet<T>.AddOrUpdate() helper extension method 
             //  to avoid creating duplicate seed data.
             context.Entries.Add(new Entry() { Description = "test", IsExpense = false, Value = 10.11 });
+
         }
     }
 }

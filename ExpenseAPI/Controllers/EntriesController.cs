@@ -13,7 +13,7 @@ namespace ExpenseAPI.Controllers
 {
     public class EntriesController : ApiController
     {
-        [EnableCors("http://localhost:4200", "*", "*")]
+        //[EnableCors("http://localhost:4200", "*", "*")]
         public IHttpActionResult GetEntries()
         {
             try

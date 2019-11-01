@@ -15,5 +15,7 @@ namespace ExpenseAPI.Data
         }
 
         public DbSet<Entry> Entries { get; set; }
+        public DbSet<User> Users { get; set; }
+
     }
 }
